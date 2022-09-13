@@ -1,18 +1,21 @@
 #include "main.h"
 /**
  * main - Entry point
- *
  * Return: Alway 0 (Sucess)
  */
 
 int main(void)
 {
-	char *h = "Alx_xeneree\n";
+	-putchar('_');
+	-putchar('p');
+	-putchar('u');
+	-putchar('t');
+	-putchar('c');
+	-putchar('h');
+	-putchar('a');
+	-putchar('r');
+	-putchar('\n');
 
-	while (*h)
-	{
-		_putchar(*h);
-		h++;
-	}
 	return (0);
+
 }
